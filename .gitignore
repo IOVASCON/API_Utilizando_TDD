@@ -1,0 +1,31 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Editor de código
+.vscode/
+.idea/
+
+# Ambientes virtuais
+.venv/
+env/
+
+# Logs
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+
+# Arquivos do Poetry
+poetry.lock
+
+# Bancos de dados locais
+*.sqlite3
+*.db

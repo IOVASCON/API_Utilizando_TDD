@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "app-local-tdd"
+version = "0.1.0"
+description = "\"API de Seguros e Planos de Aposentadoria usando SQLite\""
+authors = ["Izairton Oliveira de Vasconcelos <iovascon@gmail.com>"]
+license = "\"MIT\""
+readme = "README.md"
+package-mode = false  # Adicione esta linha
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+pydantic = "^2.10.3"
+pydantic-settings = "^2.6.1"
+sqlalchemy = "^2.0.36"
+motor = "^3.6.0"
+httpx = "^0.28.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+pytest-asyncio = "^0.24.0"
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
